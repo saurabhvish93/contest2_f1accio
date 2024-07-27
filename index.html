@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation</title>
+    <style>
+     #btn {
+        margin: 10px 1px
+     }
+     .form1 {
+        margin-top: 8px;
+        margin-bottom: 5px;
+     }
+    </style>
+</head>
+<body>
+     <form>
+        <div>
+        <label for="email">Email</label> <br>
+        <input type="email" id="email" class="form1" placeholder="example@email.com"/><br>
+        <p class="email_err"></p>
+    </div>
+    <div>
+        <label for="password">Password</label><br>
+        <input type="password" id="password" class="form1" placeholder="Your Password"/><br>
+        <p class="password_err"></p>
+    </div>
+        <button id="btn" type="submit">Submit</button>
+     </form>
+
+
+
+
+     <script src="form.js"></script>
+</body>
+</html>
